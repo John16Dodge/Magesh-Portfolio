@@ -1,0 +1,189 @@
+/*navbar region*/
+a{
+    text-decoration: none;
+    color: white ;
+}
+.nav{
+    position: sticky;
+    top: 0px;
+}
+.bar{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: end;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    align-items: center;
+   
+}
+.content{
+    margin-top: 100px;
+    color: black;
+}
+.d{
+    margin-right: 900px;
+}
+.nav{
+    background-color: #3A1078;
+    border-radius: 30px;
+    position: sticky;
+    gap:0px;
+}
+.a{
+    background-color: #3A1078;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    height: 30px;
+}
+.downloader{
+    background-color: rgb(70, 169, 70);
+    color: #3A1078;
+    border: 0;
+    border-radius: 10px;
+    height: 30px;
+}
+.downloader:hover{
+    transition-timing-function: ease-in-out;
+    box-shadow: 2px 2px 4px 4px #3A1078;
+    transition-duration: 0.7s;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+.a:hover{
+    transition-timing-function: ease-in-out;
+    box-shadow: 2px 2px 4px 4px aqua;
+    transition-duration: 0.7s;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+.page{
+
+    background-color: rgb(229, 222, 222);
+    color: white;
+}
+
+/*Content Region*/
+img{
+    margin-left: 30px;
+    border-radius: 50px;
+    float: left;
+    margin: 10px;
+    height:200px;  
+    position: relative;
+}
+.img:hover{
+    
+    transition-timing-function: ease-in-out;
+    box-shadow: 2px 2px 4px 4px  #3A1078;
+    transition-duration: 0.7s;
+    cursor: pointer;
+    margin-right:20px;
+}
+
+
+/* Skills Section Styling */
+#skills, #projects {
+    background-color: rgb(229, 222, 222); 
+    padding: 50px 20px;
+    margin: 30px auto;
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.skill h3 {
+    color: #3A1078;
+    font-size: 2em;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.skill p {
+    font-size: 1.1em;
+    color: black;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.skill ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.skill ul li {
+    background-color: #3A1078;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+    font-size: 1.1em;
+}
+
+.skill ul li:hover {
+    transform: scale(1.02);
+}
+
+.skill ul li strong {
+    color: #ffd700;
+}
+
+.skill p:last-of-type {
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+.order{
+    list-style-type:number;
+    margin: 5px;
+}
+.tech{
+    float: left;
+    margin-right:20px ;
+}
+
+/*Footer Area*/
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+}
+.images{
+    height: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .page, body {
+      background-color: aqua;
+      color: rgb(229, 222, 222);
+    }
+    #skills, #projects{
+        background-color: aqua;
+        color: black;
+    }
+    .downloader{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+        float:left;
+    }
+  }
+

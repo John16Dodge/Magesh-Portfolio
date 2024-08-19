@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio page</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<div class="page">
+    <div class="nav"> 
+        <ul class="bar">
+            <li><a href=""><button class="a" onclick="section('about')">About</button></a></li>
+            <li><a href="#"><button class="a" onclick="section('contact')">Contact</button></a></li>
+            <li><a href=""><button class="a" onclick="section('projects')">Projects</button></a></li>
+            <li><a href="#"><button class="a" onclick="section('skills')">Skills</button></a></li>
+        </ul>
+    </div>
+
+
+    <section id="about">
+        <img src="https://media.licdn.com/dms/image/D5603AQH_XuA1wEz1iA/profile-displayphoto-shrink_200_200/0/1718257252842?e=2147483647&v=beta&t=lYwP0B_2GclXiTdPMvFyXJyIogpzwyaPUg4CGS2I4RE" alt="My Photo" class="img">
+        <div class="content">
+            <h1>I'm <br>Magesh Kumar Jayavel</h1>
+            <h2 style="color: #3A1078;">I'm a Full-Stack Developer</h2>
+            Hello! I'm Magesh Kumar Jayavel, a passionate Full Stack Developer with a knack for crafting efficient, scalable, and user-friendly web applications. With a strong foundation in both front-end and back-end technologies, I bring a holistic approach to web development, ensuring that every project I work on is not only functional but also visually appealing and seamless for the end-user.</p>
+            <a href="https://drive.google.com/file/d/1kcf3D8P07LbURBHhN3bvT4ge71fitMkH/view?usp=drive_link"><button class="downloader" onclick="section('skills')">Download Resume</button></a> 
+        </div>
+    <section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skill">
+            <h3>Full Stack Development</h3>
+            <p>I specialize in full stack development, bringing together a comprehensive suite of technologies to create robust web applications.</p>
+            <ul>
+                <li><strong>HTML/CSS:</strong> Crafting responsive, accessible, and visually appealing user interfaces.</li>
+                <li><strong>JavaScript:</strong> Enhancing interactivity and user experience with dynamic front-end functionality.</li>
+                <li><strong>Node.js:</strong> Building scalable and efficient server-side applications, handling asynchronous operations with ease.</li>
+                <li><strong>PostgreSQL:</strong> Managing and optimizing relational databases for secure, reliable data storage and retrieval.</li>
+                <li><strong>React:</strong> Building dynamic and responsive user interfaces with component-based architecture and efficient state management.</li>
+            </ul>
+            <p>By integrating these technologies, I deliver end-to-end solutions that are both user-centric and technically sound.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <center><h2 style="color: black; font-family: 'Poppins'; font-size: 2.5em;">My Projects</h2></center>
+        <div class="skill">
+            <p>I always build websites to test my ability and quality of building websites.</p>
+            <ul>
+                <li><strong>Namrupi@VPM:</strong> Created a Front-End of Website using HTML/CSS</li>
+                <li><strong>X-Recruit:</strong> Created a Website, X-Recruit is a company that provides all Level of Jobs including Low-Level Jobs.</li>
+                <li><strong>Anti-Theft Mechanism:</strong> A Simple Theft Interruption System using IoT Sensors and Bluetooth of HC-05 Model for controlling.</li>
+                <li><strong>Hotel Front-End Website:</strong> Created a Front-End of Website using HTML/CSS</li>
+            </ul>
+        </div>
+    </section>
+
+
+<footer>
+    <div class="nav"> 
+            <ul class="bar">
+                <a href="www.linkedin.com/in/mageshkumarj"><img src="Linkedin.png" alt="Linkedin" class="images"></a>
+                <img src="Github.png" alt="Git-Hub" class="images">
+                <img src="Mail.png" alt="Mail" class="images">   
+            </ul>
+    </div>
+    
+
+
+</footer>
+</div>
+</div>
+
+<audio src="Popper.mp3" id="audiotext"></audio>
+<script>
+ let sound= document.getElementById("audiotext");
+ for(var i=0; i<=document.querySelectorAll("li").length;i++)
+    document.querySelectorAll("li").[i]addEventListener("mouseover",function(){
+    sound.play();
+ });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
