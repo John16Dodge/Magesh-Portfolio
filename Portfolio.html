@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio page</title>
     <link rel="stylesheet" href="CSS.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 <div class="page">
@@ -165,22 +166,8 @@
 
 <audio src="Clicker.mp3" id="audiotext"></audio>
 
-<script>
-    function SoundParty(){
-        var sound=new Audio("/Clicker.mp3");
-        sound.play();
-    }
- let sound= document.getElementById("audiotext");
- for(var i=0; i<=document.getElementsByTagName("li").length;i++)
-    document.getElementsByTagName("li")[i].addEventListener("mouseover",function(){
-    sound.play();
- });
-
- for(var i=0; i<=document.getElementsByTagName("li").length;i++)
-    document.getElementsByTagName("li")[i].addEventListener("mouseout",function(){
-    sound.pause();
- });
-</script>
+<script src="Portfolio.js">
+    
 </script>
 
 
